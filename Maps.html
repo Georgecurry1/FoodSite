@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Where should I eat?</title>
+
+    <link rel="stylesheet" type="text/css" href="./Styles.css" />
+    <script src="./MapScript.js"></script>
+
+  </head>
+  <body>
+    <h3>Where should I eat?</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=******************&libraries=geometry,places&callback=initMap&v=weekly"async>
+    </script>
+
+    <button onclick="goBack()">Go back to Food Survey</button>
+    <script>
+      function goBack()
+      {
+        window.location.href = "./Main.html";
+      }
+    </script>
+  </body>
+</html>
+
