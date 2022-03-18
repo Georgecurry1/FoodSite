@@ -1,0 +1,31 @@
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+h3,h1
+{
+    text-align: center;
+    font-family: 'Gill Sans';
+}
+p,label
+{
+  font-family: 'Gill Sans';
+}
+button
+{
+  background-color: white;
+    color: rgb(0, 174, 255);
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.bckImage
+{
+  background-image: url("https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/55/559/559404/blue-splatters-o.jpg?1436402071");
+}
